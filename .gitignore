@@ -1,0 +1,17 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Java build output
+target/
+out/
+*.class
+
+# Maven wrapper/build metadata if generated locally
+.mvn/wrapper/maven-wrapper.jar
+
+# Local study/interview notes
+route-optimizer/PROJECT_INTERVIEW_GUIDE.md
+route-optimizer/BEGINNER_ALGORITHM_GUIDE.md
+route-optimizer/CODE_FILE_WALKTHROUGH.md
+route-optimizer/SPRING_BOOT_PROJECT_GUIDE.md

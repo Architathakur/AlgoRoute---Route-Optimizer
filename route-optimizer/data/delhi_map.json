@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    { "id": "CP",  "name": "Connaught Place",    "lat": 28.6315, "lng": 77.2167 },
+    { "id": "INA", "name": "INA Market",          "lat": 28.5733, "lng": 77.2090 },
+    { "id": "HKV", "name": "Hauz Khas Village",   "lat": 28.5494, "lng": 77.2001 },
+    { "id": "IGI", "name": "IGI Airport",          "lat": 28.5562, "lng": 77.1000 },
+    { "id": "DWK", "name": "Dwarka Sector 21",    "lat": 28.5516, "lng": 77.0588 },
+    { "id": "NDL", "name": "New Delhi Station",   "lat": 28.6431, "lng": 77.2194 },
+    { "id": "KSY", "name": "Kashmere Gate",       "lat": 28.6673, "lng": 77.2285 },
+    { "id": "LJN", "name": "Lajpat Nagar",        "lat": 28.5672, "lng": 77.2434 },
+    { "id": "SKV", "name": "Saket",               "lat": 28.5244, "lng": 77.2066 },
+    { "id": "NFC", "name": "Nehru Place",         "lat": 28.5491, "lng": 77.2521 }
+  ],
+  "edges": [
+    { "from": "CP",  "to": "NDL", "weight": 2.1,  "bidirectional": true },
+    { "from": "CP",  "to": "INA", "weight": 7.4,  "bidirectional": true },
+    { "from": "CP",  "to": "KSY", "weight": 4.8,  "bidirectional": true },
+    { "from": "NDL", "to": "KSY", "weight": 3.2,  "bidirectional": true },
+    { "from": "INA", "to": "HKV", "weight": 3.1,  "bidirectional": true },
+    { "from": "INA", "to": "LJN", "weight": 4.2,  "bidirectional": true },
+    { "from": "INA", "to": "IGI", "weight": 12.5, "bidirectional": true },
+    { "from": "HKV", "to": "SKV", "weight": 3.8,  "bidirectional": true },
+    { "from": "HKV", "to": "IGI", "weight": 14.2, "bidirectional": true },
+    { "from": "IGI", "to": "DWK", "weight": 5.3,  "bidirectional": true },
+    { "from": "LJN", "to": "NFC", "weight": 3.5,  "bidirectional": true },
+    { "from": "LJN", "to": "SKV", "weight": 5.1,  "bidirectional": true },
+    { "from": "SKV", "to": "NFC", "weight": 4.6,  "bidirectional": true },
+    { "from": "NFC", "to": "CP",  "weight": 9.3,  "bidirectional": false }
+  ]
+}
